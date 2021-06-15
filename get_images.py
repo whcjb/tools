@@ -13,7 +13,10 @@ from pathlib import Path
 
 from multiprocessing.pool import Pool
 
-
+'''
+直接处理亿级list会出现进程杀死问题， 使用 yield 把 list 分开，每个 chunk 单独使用 pool 就可以了。
+进度条使用 tqdm
+'''
 num_threads = 20
 
 sql_list = '../lst/0501_0609_.txt'

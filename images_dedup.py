@@ -42,6 +42,7 @@ for _ in tqdm.tqdm(pool.imap_unordered(func, duplicates), total=len(duplicates))
     pass
 
 
+
 #  去掉多余图片
 # cnt = 0
 # for tim in os.listdir(trans_img):

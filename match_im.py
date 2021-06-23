@@ -9,6 +9,11 @@ from align import *
 import tqdm
 from multiprocessing.pool import Pool
 
+'''
+需要更新 opencv 版本
+pip install opencv-python==4.3.0.36
+pip install opencv-contrib-python==4.3.0.36
+'''
 sift = cv2.xfeatures2d.SIFT_create()
 
 im_lst = '/home/yanpeifa/matting/dataset/matchimg_img/changjing_no_clean/changjing_0510_0607/dedup_0501_0609.lst'

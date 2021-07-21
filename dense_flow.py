@@ -11,6 +11,7 @@ import tqdm
 
 '''
   调用 denseflow抽光流，多线程执行，每个 class_name 设置一个文件夹
+  python dense_flow.py /media/cfs/yanpeifa/action/dataset/kinetics400/3.txt
 '''
 
 
